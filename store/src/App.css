@@ -1,16 +1,12 @@
 .App {
   text-align: center;
-  
 }
-.Login{
-  color: black;
-  align-items: right;
-  display: flex;
-  
   
 
-}
+
+
 .mr-auto{
+ 
   font-size:18px;
   justify-content: center;
   color: white;
