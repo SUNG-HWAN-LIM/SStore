@@ -10,19 +10,15 @@ function App() {
 
       <>
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home"><h1>Store</h1></Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home"><h3>home</h3></Nav.Link>
-            <Nav.Link href="#features">Apple</Nav.Link>
-            <Nav.Link href="#pricing"></Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home"><h3>Phone</h3></Nav.Link>
+            <Nav.Link href="#Apple">Apple</Nav.Link>
+            <Nav.Link href="#Galaxy">Galaxy</Nav.Link>
+            <Nav.Link href="#LG">LG</Nav.Link>
+            <Nav.Link href="#myPags">Login</Nav.Link>
+            <Nav.Link href="#work">고객센터</Nav.Link>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button>
-          </Form>
+    
         </Navbar>
         <br />
 
@@ -34,23 +30,23 @@ function App() {
       </Jumbotron>
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-6">
             <img src="https://codingapple1.github.io/shop/shoes1.jpg" width="100%" />
             <h4>상품명</h4>
             <p>상품설명 가격</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6">
             <img src="https://codingapple1.github.io/shop/shoes2.jpg" width="100%" />
             <h4>상품명</h4>
             <p>상품설명 가격</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6">
             <img src="https://codingapple1.github.io/shop/shoes3.jpg" width="100%" />
             <h4>상품명</h4>
             <p>상품설명 가격</p>
           </div>
         </div>
-        <div className="col-md-4"></div>
+        <div className="col-md-6"></div>
       </div>
 
 
